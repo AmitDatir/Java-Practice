@@ -1,0 +1,18 @@
+public class sortArray2 {
+    public static void main(String args[]) {
+      int[] aRR1 = new int[]{15,12,13,15,16,84,56,-84,20,10};
+      System.out.println("Ascending order of elements in the array:");
+      for(int i=0; i<aRR1.length; i++){
+          for(int j=i+1; j<aRR1.length; j++){
+              int temp=0;
+              if(aRR1[i]>aRR1[j]){
+                  temp=aRR1[i];
+                  aRR1[i]=aRR1[j];
+                  aRR1[j]=temp;
+                  
+              }
+          }
+          System.out.println( aRR1[i] );
+}
+}
+}
