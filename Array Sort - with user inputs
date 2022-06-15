@@ -1,0 +1,26 @@
+//Arraysorting with user inputs
+import java.util.Scanner;
+public class ArraySortNew {
+    public static void main(String args[]) {
+        int[] arraySort = new int[10];
+        for(int i=0;i<10;i++){
+        System.out.print("Enter an array element at no." + i + ": ");
+      Scanner input = new Scanner(System.in);
+       arraySort[i] = input.nextInt();
+        }
+        System.out.println(" ");
+        System.out.println("Array after sorting is:");
+         for(int j=0; j<10; j++){
+          for(int k=j+1; k<10; k++){
+              int temp=0;
+              if(arraySort[j]>arraySort[k]){
+                  temp=arraySort[j];
+                  arraySort[j]=arraySort[k];
+                  arraySort[k]=temp;
+                  
+              }
+          }
+          System.out.println( arraySort[j] );
+        }
+    }
+}
