@@ -39,7 +39,7 @@ public class ArraySortNew {
         int[] arraySort = new int[x];
         System.out.println(" ");
         for(int i=0;i<x;i++){
-        System.out.print("Enter an array element at no." + i + ": ");
+        System.out.print("Enter an array element at no." + (i+1) + ": ");
       Scanner input = new Scanner(System.in);
        arraySort[i] = input.nextInt();
         }
