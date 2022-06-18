@@ -92,7 +92,7 @@ public class StarHalfPyramid3 {
 ----------------------------
 
 
-public class StarHalfPyramid4 {
+public class StarfullPyramid4 {
     public static void main(String args[]) {
         for (int i=1; i<10; i++){
             for(int k=10-i; k>0; k--){
