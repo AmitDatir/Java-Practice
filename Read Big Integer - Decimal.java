@@ -15,8 +15,9 @@ public class bigIntegereDecimal {
 
 
 
-//Output:
+/*Output:
 Enter a big integer: 163248952334
 Big integer value entered is: 163248952334
 Enter a big decimal: 130.1896231923
 Big decimal value entered is: 130.1896231923
+*/
