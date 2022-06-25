@@ -12,7 +12,7 @@ public class StarHalfPyramid1 {
 }
 
 
-//Output:
+/*Output:
 * 
 * * 
 * * * 
@@ -22,10 +22,7 @@ public class StarHalfPyramid1 {
 * * * * * * * 
 * * * * * * * * 
 * * * * * * * * * 
-
-
-
-------------------------------
+*/
 
 
 
@@ -43,7 +40,8 @@ public class StarHalfPyramid2 {
 }
 
 
-//Output:
+/*
+Output:
 * * * * * * * * * 
 * * * * * * * * 
 * * * * * * * 
@@ -53,9 +51,8 @@ public class StarHalfPyramid2 {
 * * * 
 * * 
 * 
+*/
 
-
---------------------------------------------
 
 
 public class StarHalfPyramid3 {
@@ -74,7 +71,8 @@ public class StarHalfPyramid3 {
 }
 
 
-//Output:
+/*
+Output:
                   * 
                 * * 
               * * * 
@@ -85,11 +83,7 @@ public class StarHalfPyramid3 {
     * * * * * * * * 
   * * * * * * * * * 
 
-
-
-
-
-----------------------------
+*/
 
 
 public class StarfullPyramid4 {
@@ -109,8 +103,8 @@ public class StarfullPyramid4 {
 
 
 
-
-//Output:
+/*
+Output:
 
          * 
         * * 
@@ -121,5 +115,4 @@ public class StarfullPyramid4 {
    * * * * * * * 
   * * * * * * * * 
  * * * * * * * * * 
-
-
+*/
