@@ -29,8 +29,9 @@ public class largestNumber {
 }
 
 
-//Output:
+/*Output:
 Enter 1st number to check: 2512
 Enter 2nd number to check: 20
 Enter 3rd number to check: 152
 Largest number from given input is: 2512
+*/
