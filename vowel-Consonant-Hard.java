@@ -42,6 +42,12 @@ public class vowelConsonant {
 }
 
 
-//Output:
+/* Output:
+1.
 Enter any character: abhi
 Enter a valid character
+
+2.
+Enter any character: o
+o is vowel.
+*/
