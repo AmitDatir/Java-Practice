@@ -14,13 +14,13 @@ public class evenOdd1 {
 }
 
 
-//Output:
+/*
+Output:
 Enter any number to check: 561
 Number 561 is odd.
+*/
 
 
-
--------------------------------
 
 
 
@@ -36,7 +36,7 @@ public class evenOdd2 {
 }
 
 
-//Output:
+/*Output:
 Enter any number to check: 523
 Number 523 is odd
-
+*/
