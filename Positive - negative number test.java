@@ -16,6 +16,7 @@ public class positiveNegative {
 }
 
 
-//Output:
+/*Output:
 Enter any number to check: -523
 The Number -523 is negative.
+*/
