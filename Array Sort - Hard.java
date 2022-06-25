@@ -18,7 +18,7 @@ public class sortArray2 {
 }
 
 
-//Output:
+/*Output:
 Ascending order of elements in the array:
 -84
 10
@@ -30,7 +30,7 @@ Ascending order of elements in the array:
 20
 56
 84
-
+*/
 
 
 //using advanced for loop to print ascending order of array elements:
@@ -55,6 +55,7 @@ public class sortArray3 {
 
 
 
-//Output:
+/*Output:
 Ascending order of elements in the array:
 -84 10 12 13 15 15 16 20 56 84 
+*/
