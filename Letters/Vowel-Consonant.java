@@ -14,10 +14,11 @@ public class vowelConsonant1 {
 }
 
 
-//Output:
+/*
+Output:
 Enter any character: d
 d is consonant.
-
+*/
     
     
 
@@ -44,6 +45,9 @@ public class vowelConsonant2 {
 }
 
 
-//Output:
+
+/*
+Output:
 Enter any character: i
 i is vowel.
+*/
