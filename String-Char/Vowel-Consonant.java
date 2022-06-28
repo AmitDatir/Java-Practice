@@ -48,6 +48,7 @@ public class vowelConsonant2 {
 
 /*
 Output:
+1. 
 Enter any character: i
 i is vowel.
 */
