@@ -51,4 +51,7 @@ Output:
 1. 
 Enter any character: i
 i is vowel.
+2.
+Enter any character: scvs
+scvs is consonant.
 */
