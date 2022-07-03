@@ -29,9 +29,9 @@ public class AlphabetNoAlpha1 {
 
     public void isAlpha(char ch) {
         if(ch >= 'a' && ch<='z' || ch>='A' && ch<='Z' ){
-            System.out.println(ch + " is a Alphabet.");
+            System.out.println(ch + " is an Alphabet.");
         } else{
-            System.out.println(ch + " is not a Alphabet.");
+            System.out.println(ch + " is not an Alphabet.");
         }
     }
 }
