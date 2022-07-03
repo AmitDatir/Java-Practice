@@ -51,4 +51,7 @@ $ is not a Alphabet.
 4.
 Enter any character to check: 6
 6 is not a Alphabet.
+5.
+Enter any character to check: abc
+Enter only single character.
 */
