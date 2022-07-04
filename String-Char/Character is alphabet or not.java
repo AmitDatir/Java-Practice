@@ -41,16 +41,16 @@ public class AlphabetNoAlpha1 {
 Output:
 1.
 Enter any character to check: g
-g is a Alphabet.
+g is an Alphabet.
 2.
 Enter any character to check: A
-A is a Alphabet.
+A is an Alphabet.
 3.
 Enter any character to check: $
-$ is not a Alphabet.
+$ is not an Alphabet.
 4.
 Enter any character to check: 6
-6 is not a Alphabet.
+6 is not an Alphabet.
 5.
 Enter any character to check: abc
 Enter only single character.
