@@ -58,6 +58,44 @@ Enter only single character.
 
 
 
+//Using Ternary operator:
+import java.util.Scanner;
+public class AlphabetNoAlpha {
+    private char ch;
+
+
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter any character to check: ");
+        String s1 = input.next();
+        AlphabetNoAlpha v1 = new AlphabetNoAlpha();
+        v1.setCharacter(s1);
+        v1.isAlpha(v1.getCharacter());
+    }
+
+    public void setCharacter(String s) {
+        if (s.length() == 1) {
+            ch = s.charAt(0);
+        } else {
+            System.out.println("Enter only single character.");
+        }
+    }
+
+
+    public char getCharacter() {
+        return ch;
+    }
+
+
+    public void isAlpha(char ch) {
+        String output = (ch>= 'a' && ch<='z' || ch>='A' && ch<='Z') ? (ch + " is an Alphabet.") : (ch + " is not an Alphabet.");
+            System.out.println(output);
+    }
+}
+
+
+
+
 
 //Using isAlphabetic() method:
 import java.util.Scanner;
