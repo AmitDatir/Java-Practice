@@ -12,10 +12,11 @@ public class numbersSwap1 {
 
 
 
-//Output:
+/*
+Output:
 2 numbers before swapping are: 1.76 & 3.14
 Numbers after swapping are: 3.14 & 1.76
-
+*/
 
 
 
@@ -35,6 +36,8 @@ public class numbersSwap2 {
 }
 
 
-//Output:
+/*
+Output:
 2 numbers before swapping are: 1.76 & 3.14
 Numbers after swapping are: 3.14 & 1.76
+*/
