@@ -30,6 +30,7 @@ Output:
 1.
 Enter a number to check if it's a prime number or not: 51623
 51623 is not a prime number.
+
 2.
 Enter a number to check if it's a prime number or not: 97
 97 is a prime number.
