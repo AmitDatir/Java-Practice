@@ -11,7 +11,7 @@ public class ArmstrongNumber {
         System.out.print("Enter a upper limit: ");
         max = input.nextInt();
         
-        if (min/10 != 0 || min/10 != 0){
+        if (min/10 != 0 || max/10 != 0){
             System.out.print("\nArmstrong numbers between given numbers are: ");
             
             for (num = min; num < max; num++){
