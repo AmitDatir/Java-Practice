@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArmstrongNumber {
+public class ArmstrongNumber1 {
     public static void main(String args[]) {
         int min,max, num, original, remainder;
         
