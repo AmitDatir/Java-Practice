@@ -58,7 +58,7 @@ Enter limits greater than 9.
 
 
 
-
+//Using method to find armstrong numbers:
 import java.util.Scanner;
 
 public class ArmstrongNumber2 {
