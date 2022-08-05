@@ -92,3 +92,11 @@ public class Factors {
         }
     }
 }
+
+
+
+/*
+Output:
+Enter a number to find factors: 0
+Factors of given number are: No factos!!!! You entered 0.
+*/
