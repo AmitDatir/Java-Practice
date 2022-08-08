@@ -6,7 +6,7 @@ public class PrimeSum {
         boolean flag = false;
         
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a number to check if it is a sum of prime number or not: ");
+        System.out.print("Enter a number to check if it is a sum of 2 prime numbers or not: ");
         num = input.nextInt();
         System.out.println("Following combination/s are possible: ");
         
@@ -40,14 +40,14 @@ public class PrimeSum {
 /*
 Output:
 1.
-Enter a number to check if it is a sum of prime number or not: 34
+Enter a number to check if it is a sum of 2 prime numbers or not: 34
 Following combination/s are possible: 
 34 = 3 + 31
 34 = 5 + 29
 34 = 11 + 23
 34 = 17 + 17
 2.
-Enter a number to check if it is a sum of prime number or not: 27
+Enter a number to check if it is a sum of 2 prime numbers or not: 27
 Following combination/s are possible: 
 Given number can not be expressed as sum of 2 prime numbers.
 */
