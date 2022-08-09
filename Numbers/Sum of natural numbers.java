@@ -43,3 +43,6 @@ public class SumNatural {
         System.out.println("Sum of numbers is: " + sum);
     }
 }
+
+
+//Using Recursion:
