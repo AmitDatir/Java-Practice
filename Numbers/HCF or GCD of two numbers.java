@@ -105,3 +105,41 @@ Enter 2 numbers to find HCF.
 2nd: -153
 HCF/GCD of given numbers is: 9
 */
+
+
+
+
+//Using recursion:
+import java.util.Scanner;
+
+public class HCF4 {
+    public static void main(String args[]) {
+        int num1, num2, gcd; 
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter 1st number to find HCF/GCD: ");
+        num1 = input.nextInt();
+        System.out.print("Enter 2nd number to find HCF/GCD: ");
+        num2 = input.nextInt();
+        
+        gcd = hcf(num1,num2);
+        System.out.println("HCF of numbers " + num1 + " & " + num2 + " = " + gcd);
+    }
+    
+    static int hcf(int num1, int num2){
+        if (num2 != 0){
+            return hcf(num2, num1%num2); // 81 72; 72 9; 9 0; 
+        } else {
+            return num1;
+        }
+    }
+}
+
+
+
+/*
+Output:
+Enter 1st number to find HCF/GCD: 81
+Enter 2nd number to find HCF/GCD: 153
+HCF of numbers 81 & 153 = 9
+*/
