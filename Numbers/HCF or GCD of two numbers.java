@@ -50,7 +50,7 @@ public class HCF2 {
         System.out.print("2nd: ");
         number2 = input.nextInt();
         
-        while(number1 != number2){
+        while(number1 != number2){   //81 72; 9 72; 9 63; 9 54; 9 45; 9 36; 9 27; 9 18; 9 9
             if(number1 > number2){
                 number1 -= number2;
             } else{
