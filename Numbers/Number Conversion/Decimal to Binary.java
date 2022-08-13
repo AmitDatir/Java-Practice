@@ -1,7 +1,7 @@
 //Using toBinaryString() method:
 import java.util.Scanner;
 
-public class HCF4 {
+public class DecimalToBinary {
     public static void main(String args[]) {
         int decimal; 
         
