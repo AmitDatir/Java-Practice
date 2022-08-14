@@ -49,7 +49,7 @@ Enter binary number to convert into decimal: 11100011
 //Using parseInt method:
 import java.util.Scanner;
 
-public class BinarytoDecimal {
+public class BinarytoDecimal2 {
     public static void main(String args[]) {
         String binary;
         int decimal; 
