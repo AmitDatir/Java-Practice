@@ -38,7 +38,7 @@ Enter binary number to convert into decimal: 110110111
 110110111 in binary = 439 in decimal
 2.
 Enter binary number to convert into decimal: 11100011
-1115600011 in binary = 1411 in decimal
+11100011 in binary = 227 in decimal
 */
 
 
