@@ -82,9 +82,7 @@ public class Power2 {
 
 //Using pow() function:
 import java.util.Scanner;
-public class Power2 {
-    
-    private int result=1;
+public class Power3 {
     
     public static void main(String args[]) {
         
@@ -99,3 +97,42 @@ public class Power2 {
         System.out.printf("Power of base " + base + " & exponent " + exponent + " is: " + Math.pow(base,exponent));
     }
 }
+
+
+
+
+///Using Recursion:
+import java.util.Scanner;
+public class Power4 {
+    
+    public static void main(String args[]) {
+        
+        int base, exponent, result;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the base number: ");
+        base = input.nextInt();
+        System.out.print("Enter the exponent number: ");
+        exponent = input.nextInt();
+        
+        result = power(base, exponent);
+        System.out.printf(base + "^" + exponent + " = " + result);
+    }
+    
+    public static int power(int base1, int exponent1){
+        if(exponent1 != 0){
+            return (base1 * power (base1, exponent1-1));
+        } else{
+            return 1;
+        }
+    }
+}
+
+
+
+/*
+Output:
+Enter the base number: 5
+Enter the exponent number: 5
+5^5 = 3125
+*/
