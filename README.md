@@ -1,2 +1,2 @@
 # Java-Practice
-Practice codes
+Practice for java code, everyday!!!
