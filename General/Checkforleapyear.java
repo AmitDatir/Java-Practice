@@ -29,17 +29,24 @@ public class LeapYear {
     }
 }
 
+
+
+
+
 /*
 Output:
 1.
 Enter a year to check: 1111
 1111 is not a leap year.
+
 2.
 Enter a year to check: 13
 13 is not a leap year.
+
 3.
 Enter a year to check: 1900
 1900 is not a leap year.
+
 4.
 Enter a year to check: 2020
 2020 is a leap year.
