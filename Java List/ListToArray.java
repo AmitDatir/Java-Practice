@@ -21,6 +21,7 @@ public class ListToArray {
         for (String item : arr){
             System.out.print(item + ", ");
         }
+        System.out.println("\nList-1: " + list1);
     }
 }
 
@@ -29,6 +30,7 @@ public class ListToArray {
 Output:
 List-1: [C, C++, C#, Java, Python, PHP, Ruby, Perl]
 Array: C, C++, C#, Java, Python, PHP, Ruby, Perl, 
+List-1: [C, C++, C#, Java, Python, PHP, Ruby, Perl]
 */
 
 
