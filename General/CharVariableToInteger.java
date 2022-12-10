@@ -1,4 +1,4 @@
-public class ChartToInt {
+public class ChartToInt1 {
   public static void main(String[] args) {
     char a = '5';
     char b = 'c';
