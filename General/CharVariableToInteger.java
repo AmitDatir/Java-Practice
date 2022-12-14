@@ -43,7 +43,7 @@ Output:
 
 
 //using parseInt() method:
-public class ChartToInt {
+public class ChartToInt3 {
   public static void main(String[] args) {
     char a = '5';
     char b = '7';
