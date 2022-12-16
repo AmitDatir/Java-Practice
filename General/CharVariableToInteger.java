@@ -66,7 +66,7 @@ Output:
 
 
 //by substracting '0':
-public class ChartToInt {
+public class ChartToInt4 {
   public static void main(String[] args) {
     char a = '5';
     char b = '7';
