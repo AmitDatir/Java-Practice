@@ -35,7 +35,7 @@ public class LongToInt2 {
 
 
 //convert Long class object to int:
-public class LongToInt2 {
+public class LongToInt3 {
     public static void main(String args[]) {
         Long a = 123855215L;    //Long Object
         
