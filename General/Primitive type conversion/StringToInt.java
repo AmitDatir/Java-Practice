@@ -27,7 +27,7 @@ public class StringToInt2 {
         String str1 = "456";               //str1 = "Java"  --> Throws error: java.lang.NumberFormatException
         String str2 = "9562261";
         
-        int i1 = Integer.valueOf(str1);
+        int i1 = Integer.valueOf(str1);           //valueOf returns object of Integer class, which is directly converted into int primitive
         int i2 = Integer.valueOf(str2);
         System.out.println("Int1: " + i1);
         System.out.println("Int2: " + i2);
