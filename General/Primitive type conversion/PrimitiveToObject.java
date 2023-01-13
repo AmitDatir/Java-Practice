@@ -27,3 +27,30 @@ Integer object created successfully.
 Double object created successfully.
 Boolean object created successfully.
 */
+
+
+//Wrapper objects to Primitive:
+public class ObjectToPrimitive {
+    public static void main(String args[]) {
+      
+      Integer obj1 = Integer.valueOf(56);
+      Double obj2 = Double.valueOf(623.51);
+      Boolean obj3 = Boolean.valueOf(false);
+      
+      int var1 = obj1.intValue();
+      double var2 = obj2.doubleValue();
+      boolean var3 = obj3.booleanValue();
+      
+      System.out.println("The value of int variable = " + var1);
+      System.out.println("The value of double variable = " + var2);
+      System.out.println("The value of boolean variable = " + var3);
+    }
+}
+
+
+/*
+Output:
+The value of int variable = 56
+The value of double variable = 623.51
+The value of boolean variable = false
+*/
