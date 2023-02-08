@@ -1,6 +1,7 @@
 //Using for-each loop:
 import java.util.HashMap;
 import java.util.Map.Entry;
+
 public class IterateHashMap1 {
     public static void main(String args[]) {
         HashMap<String,String> map1 = new HashMap<>();
