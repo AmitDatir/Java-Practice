@@ -13,21 +13,18 @@ public class FindKey {
         capitals.put("Shri-Lanka", "Colombo");
         System.out.println("Initial Hashmap: " + capitals);
         
-        // Scanner input = new Scanner(System.in);
-        // System.out.print("Enter the string value to find key: ");
-        // String value = new String();
-        // value = input.nextLine();
-        String value = "Washington";
-        System.out.println("Given value is: " + value);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the string value to find key: ");
+        String value = new String();
+        value = input.nextLine();
+        // String value = "Washington";
+        // System.out.println("Given value is: " + value);
         
         for(Entry<String, String> entry : capitals.entrySet()){
-            if(entry.getValue() == value){
+            if(entry.getValue().equals(value)){
                 System.out.println("Key for the given value: " + entry.getKey());
                 break;
             }
-            // else {
-            //     System.out.println("Please enter correct string.");
-            // }
         }
     }
 }
@@ -35,7 +32,12 @@ public class FindKey {
 
 /*
 Output:
+1. Static input:
 Initial Hashmap: {United States=Washington, Japan=Tokyo, England=London, Shri-Lanka=Colombo, Nepal=Kathmandu, India=New Delhi}
 Given value is: Washington
 Key for the given value: United States
+2.
+Initial Hashmap: {United States=Washington, Japan=Tokyo, England=London, Shri-Lanka=Colombo, Nepal=Kathmandu, India=New Delhi}
+Enter the string value to find key: New Delhi
+Key for the given value: India
 */
