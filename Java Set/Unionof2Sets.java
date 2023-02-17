@@ -40,18 +40,18 @@ import com.google.common.collect.Sets;
 public class UnionSet2 {
     public static void main(String args[]) {
         Set<String> set1 = new HashSet<>();
-        set1.add("C");
-        set1.add("C++");
-        set1.add("C#");
-        set1.add("Java");
+        set1.add("a");
+        set1.add("b");
+        set1.add("c");
+        set1.add("1");
+        set1.add("2");
+        set1.add("3");
         System.out.println("Set-1: " + set1);
         
         Set<String> set2 = new HashSet<>();
-        set2.add("Java");
-        set2.add("Python");
-        set2.add("PHP");
-        set2.add("Ruby");
-        set2.add("Perl");
+        set2.add("1");
+        set2.add("4");
+        set2.add("10");
         System.out.println("Set-2: " + set2);
         
         Set<String> unionSet = Sets.union(set1, set2);
