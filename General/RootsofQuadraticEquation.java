@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class QuadraticRoots {
   public static void main(String[] args) {
       double a,b,c,determinant, root1,root2;
