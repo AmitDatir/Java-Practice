@@ -1,6 +1,6 @@
 //Arraysorting with user inputs: 1
 import java.util.Scanner;
-public class ArraySortNew {
+public class ArraySortNew1 {
     public static void main(String args[]) {
         int[] arraySort = new int[10];
         for(int i=0;i<10;i++){
@@ -31,7 +31,7 @@ public class ArraySortNew {
 
 //Arraysorting with user inputs: 2
 import java.util.Scanner;
-public class ArraySortNew {
+public class ArraySortNew2 {
     public static void main(String args[]) {
         System.out.print("Enter number of elements in an array:");
         Scanner total = new Scanner(System.in);
