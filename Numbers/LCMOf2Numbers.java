@@ -1,5 +1,6 @@
 //Without using GCD:
 import java.util.Scanner;
+
 public class LCM1 {
 
     public static void main(String args[]) {
@@ -41,6 +42,7 @@ LCM of numbers 81 & 153 is: 1377
 
 //With using GCD:
 import java.util.Scanner;
+
 public class LCM2 {
 
     public static void main(String args[]) {
