@@ -49,3 +49,7 @@ Value after accessing private variables:
 Name: Amit
 Age: 25
 */
+
+
+
+//Access the private field and method using Reflection:
