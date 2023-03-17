@@ -65,3 +65,45 @@ Enter steps to rotate:
 Rotated array: 
 5, 6, 7, 1, 2, 3, 4, 
 */
+
+
+
+//Solution 2 - Bubble Rotate:
+import java.util.Scanner;
+
+public class Rotate2 {
+    public static void main(String args[]) {
+        System.out.println("Enter number of elements inside array: ");
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int[] num = new int[n];
+        
+        System.out.println("Enter elements of array: ");
+        for (int i=0; i<n; i++){
+            num[i] = input.nextInt();
+        }
+        
+        System.out.println("Enter steps to rotate: ");
+        int k = input.nextInt();
+        
+        num = rotate(num, k);
+        System.out.println("Rotated array: ");
+        for(int num1: num){
+            System.out.print(num1 + ", ");
+        }
+    }
+    
+    public static int[] rotate(int[] num, int k){
+        if (num == null || num.length==0 || k < 0) {
+            throw new IllegalArgumentException("Illegal argument!");
+        }
+        for(int i=0; i<k; i++){
+            for(int j=num.length-1; j>0; j--){
+                int temp = num[j];
+                num[j] = num[j-1];
+                num[j-1] = temp;
+            }
+        }
+        return num;
+    }
+}
