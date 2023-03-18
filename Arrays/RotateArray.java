@@ -107,3 +107,66 @@ public class Rotate2 {
         return num;
     }
 }
+
+
+
+//Solution 3 - Reversal:
+/*
+1. Divide the array two parts: 1,2,3,4 and 5, 6
+2. Reverse first part: 4,3,2,1,5,6
+3. Reverse second part: 4,3,2,1,6,5
+4. Reverse the whole array: 5,6,1,2,3,4
+*/
+
+import java.util.Scanner;
+
+public class Rotate3 {
+    public static void main(String args[]) {
+        System.out.println("Enter number of elements inside array: ");
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int[] num = new int[n];
+        
+        System.out.println("Enter elements of array: ");
+        for (int i=0; i<n; i++){
+            num[i] = input.nextInt();
+        }
+        
+        System.out.println("Enter steps to rotate: ");
+        int k = input.nextInt();
+        
+        rotate(num, k);
+        
+        System.out.println("Rotated array: ");
+        for(int num1: num){
+            System.out.print(num1 + ", ");
+        }
+    }
+    
+    public static int[] rotate(int[] num, int k){
+        if(k > num.length){
+            k = k % num.length;
+        }
+        
+        int a = num.length -k;
+        num = reverse(num, 0, a-1);
+        num = reverse(num, a, num.length-1);
+        num = reverse(num, 0, num.length-1);
+        
+        return num;
+    }
+        
+    public static int[] reverse(int[] arr, int left, int right){
+        if(arr == null || arr.length == 1)
+        return null;
+            
+        while(left<right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
+        }
+        return arr;
+    }
+}
