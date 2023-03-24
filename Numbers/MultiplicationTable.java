@@ -1,5 +1,6 @@
 //Using while loop:
 import java.util.Scanner;
+
 public class MultiplicationTable {
 
     public static void main(String args[]) {
@@ -35,6 +36,7 @@ Enter a number to find multiplication table: 17
 
 //Using for loop:
 import java.util.Scanner;
+
 public class MultiplicationTable {
 
     public static void main(String args[]) {
