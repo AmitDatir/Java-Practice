@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class VowelConsonantCount{
     public static void main(String args[]){
         int vowel=0, consonant=0, numbers=0, spaces=0, others=0;
