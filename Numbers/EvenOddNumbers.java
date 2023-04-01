@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class evenOdd1 {
+
+public class EvenOdd1 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter any number to check: ");
@@ -25,7 +26,8 @@ Number 561 is odd.
 
 
 import java.util.Scanner;
-public class evenOdd2 {
+
+public class EvenOdd2 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter any number to check: ");
@@ -40,3 +42,27 @@ public class evenOdd2 {
 Enter any number to check: 523
 Number 523 is odd
 */
+
+
+
+
+//Using Bitwise operator:
+import java.util.Scanner;
+
+public class EvenOdd3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter number to check: ");
+        int num = input.nextInt();
+        System.out.println(result(num));
+    }
+
+    public static String result(int num){
+        num = num & 1;
+        if(num == 1){
+            return "Given number is odd.";
+        }else{
+            return "Given number is even.";
+        }
+    }
+}
