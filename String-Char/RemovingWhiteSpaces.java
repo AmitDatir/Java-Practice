@@ -1,5 +1,6 @@
 //using replaceAll method:
 import java.util.Scanner;
+
 public class WhiteSpace {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
