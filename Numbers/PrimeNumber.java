@@ -1,5 +1,6 @@
 //Using for loop:
 import java.util.Scanner;
+
 public class PrimeNumber1 {
     public static void main(String args[]) {
         int num;
