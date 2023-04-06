@@ -41,6 +41,7 @@ Enter a number to check if it's a prime number or not: 97
 
 //Using while loop:
 import java.util.Scanner;
+
 public class PrimeNumber2 {
     public static void main(String args[]) {
         int num, i=2;
