@@ -1,5 +1,6 @@
 //positive - negative test on a number
 import java.util.Scanner;
+
 public class positiveNegative {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
