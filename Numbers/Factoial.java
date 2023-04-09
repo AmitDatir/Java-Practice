@@ -1,5 +1,6 @@
 //Using for loop & small numbers:
 import java.util.Scanner;
+
 public class Factorial1 {
 
     public static void main(String args[]) {
