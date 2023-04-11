@@ -72,6 +72,7 @@ Factorial of number 50 is: 30414093201713378043612608166064768844377641568960512
 //Using while loop:
 import java.util.Scanner;
 import java.math.BigInteger;
+
 public class Factorial3 {
 
     public static void main(String args[]) {
