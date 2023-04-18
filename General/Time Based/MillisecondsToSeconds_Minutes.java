@@ -29,6 +29,7 @@ Enter number of milliseconds to calculate seconds & minutes: 1000000
 
 //Using mathematical formula:
 import java.util.Scanner;
+
 public class Milli2 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
