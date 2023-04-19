@@ -1,5 +1,6 @@
 //24 Hours format:
 import java.util.Scanner;
+
 public class Time{
     int hour, min, sec;
     public Time(int hour, int min, int sec){
