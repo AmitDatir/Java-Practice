@@ -14,6 +14,7 @@ public class CurrentDirectory1 {
 
 //Using Path:
 import java.nio.file.Paths;
+
 public class CurrDirectory2 {
     public static void main(String[] args) {
         String path = Paths.get("").toAbsolutePath().toString();
