@@ -1,5 +1,6 @@
 //Using if - else loop:
 import java.util.Scanner;
+
 public class AlphabetNoAlpha1 {
     private char ch;
 
