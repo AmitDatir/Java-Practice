@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class frequecyChar{
     public static void main(String args[]){
         int frequency=0;
