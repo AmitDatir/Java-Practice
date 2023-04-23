@@ -1,5 +1,6 @@
 //To sort strings as per dictionary order:
 import java.util.Scanner;
+
 public class lexicographicalOrder{
     public static void main(String args[]){
         Scanner input = new Scanner(System.in);
