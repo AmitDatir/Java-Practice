@@ -26,6 +26,7 @@ d is consonant.
     
     
 import java.util.Scanner;
+
 public class vowelConsonant2 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
