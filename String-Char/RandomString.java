@@ -1,5 +1,6 @@
 //Generate random String:
 import java.util.Random;
+
 public class RandomString {
     public static void main(String args[]) {
         String alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
