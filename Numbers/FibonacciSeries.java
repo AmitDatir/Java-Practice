@@ -80,3 +80,34 @@ Output:
 Enter an approximate last number of the series: 100
 Fibonnaci series upto 100 is: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89,
 */
+
+
+
+//find nth Fibonacci number:
+import java.util.Scanner;
+
+public class FibonacciSeries {
+    public static void main(String args[]) {
+        System.out.print("Enter the nth number of fibonacci series to find: ");
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+
+        int a = 0;
+        int b = 1;
+        int count = 2;
+        while(count <= n){
+            int temp = b;
+            b = b + a;
+            a = temp;
+            count++;
+        }
+        System.out.print(n + "th number of Fibonnaci series is: " + b);
+    }
+}
+
+
+/*
+Output:
+Enter the nth number of fibonacci series to find: 8
+8th number of Fibonnaci series is: 21
+*/
