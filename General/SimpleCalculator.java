@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PositiveFactors {
+public class Calculator {
     public static void main(String args[]) {
         char operator;
         double num1, num2, result;
