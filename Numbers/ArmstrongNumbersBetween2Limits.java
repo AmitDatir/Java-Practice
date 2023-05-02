@@ -110,3 +110,40 @@ public class ArmstrongNumber2 {
             }
     }
 }
+
+
+
+
+//Simple:
+import java.util.Scanner;
+
+public class ArmstrongNumber3 {
+    public static void main(String[] args) {
+        
+//Print all the 3 digits armstrong numbers
+        for (int i = 100; i < 1000; i++) {
+            if (isArmstrong(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        
+        Scanner in = new Scanner(System.in);
+        System.out.println("\nEnter the number to check: ");
+        int n = in.nextInt();
+        System.out.println("Given number is Armstrong number?: " + isArmstrong(n));
+    }
+
+//Print True if armstrong number
+    static boolean isArmstrong(int n) {
+        int original = n;
+        int sum = 0;
+
+        while (n > 0) {
+            int rem = n % 10;
+            n = n / 10;
+            sum = sum + rem*rem*rem;
+        }
+
+        return sum == original;
+    }
+}
