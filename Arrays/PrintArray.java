@@ -18,6 +18,7 @@ Elements in array: 11 22 33 44 55
 
 //Using standard library functions:
 import java.util.Arrays;
+
 public class PrintArray2 {
     public static void main(String args[]) {
         int arr[] = {11,22,33,44,55};
