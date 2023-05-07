@@ -37,6 +37,7 @@ Elements in array: [11, 22, 33, 44, 55]
 
 //Using standard library function for multi-dimensional array:
 import java.util.Arrays;
+
 public class PrintArray3 {
     public static void main(String args[]) {
         int arr[][] = {{1, 2}, {4, 5}, {7, 8}};       //works for 3-D array as well
