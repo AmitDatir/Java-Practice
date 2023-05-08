@@ -26,6 +26,7 @@ public class Arr1 {
 
 //Using Stream:
 import java.util.stream.IntStream;
+
 public class Arr2 {
     public static void main(String args[]) {
         int arr1[] = {5, 9, 0, 2, 6, 7};
