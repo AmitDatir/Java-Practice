@@ -49,6 +49,7 @@ public class Arr2 {
 
 //For non-primitive data types:
 import java.util.Arrays;
+
 public class Arr3 {
     public static void main(String args[]) {
         String arr1[] = {"Mon", "Tues", "Wed", "Thur", "Fri", "Sat"};
@@ -66,3 +67,4 @@ public class Arr3 {
 
 
 //Output: tues is not present in the array.
+
