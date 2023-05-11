@@ -1,5 +1,6 @@
 //Arraysorting with user inputs: 1
 import java.util.Scanner;
+
 public class ArraySortNew1 {
     public static void main(String args[]) {
         int[] arraySort = new int[10];
