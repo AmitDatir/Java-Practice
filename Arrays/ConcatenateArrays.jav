@@ -1,5 +1,6 @@
 //Using arraycopyt:
 import java.util.Arrays;
+
 public class Concatenate1 {
     public static void main(String args[]) {
         int[] arr1 = {11, 22, 33};
