@@ -28,6 +28,7 @@ Output:
 
 //Without using arraycopyt:
 import java.util.Arrays;
+
 public class Concatenate2 {
     public static void main(String args[]) {
         int[] arr1 = {11, 22, 33};
