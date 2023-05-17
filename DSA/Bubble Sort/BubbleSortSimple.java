@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
+
 public class BubbleSort {
     Scanner input = new Scanner(System.in);
     void bubbleSort(int arr[]){
