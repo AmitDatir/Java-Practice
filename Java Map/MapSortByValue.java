@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.Map.Entry;
+
 public class MapSort {
     public static void main(String args[]) {
         LinkedHashMap<String, String> capitals = new LinkedHashMap();
