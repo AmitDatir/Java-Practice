@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class ComplexAdd{
     double real, imag;
     public ComplexAdd(double real, double imag){
