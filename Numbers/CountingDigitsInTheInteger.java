@@ -1,5 +1,6 @@
 //using while loop:
 import java.util.Scanner;
+
 public class Count1 {
     public static void main(String args[]) {
         int number,count=0;
