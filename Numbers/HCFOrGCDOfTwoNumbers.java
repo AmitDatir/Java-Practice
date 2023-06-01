@@ -40,6 +40,7 @@ HCF/GCD of numbers 257 & 83 : 1
 
 //Using while loop & if-else:
 import java.util.Scanner;
+
 public class HCF2 {
 
     public static void main(String args[]) {
