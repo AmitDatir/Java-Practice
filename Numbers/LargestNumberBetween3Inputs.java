@@ -1,5 +1,6 @@
 //largest number between 3 inputs:
 import java.util.Scanner;
+
 public class largestNumber1 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
