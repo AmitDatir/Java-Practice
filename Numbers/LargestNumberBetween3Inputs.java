@@ -40,6 +40,7 @@ Largest number from given input is: 584521
 
 
 import java.util.Scanner;
+
 public class largestNumber2 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
