@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class PalindromeNumbers {
     public static void main(String args[]) {
         int num,original,reversed = 0,remainder;
