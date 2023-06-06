@@ -1,5 +1,6 @@
 //using while loop & no Math.pow() method:
 import java.util.Scanner;
+
 public class Power1 {
     
     private int result=1;
