@@ -47,6 +47,7 @@ Power of base 5.0 & exponent 3.0 is: 125.0
 
 //Using for loop:
 import java.util.Scanner;
+
 public class Power2 {
     
     private int result=1;
