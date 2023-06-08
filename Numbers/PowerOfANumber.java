@@ -84,6 +84,7 @@ public class Power2 {
 
 //Using pow() function:
 import java.util.Scanner;
+
 public class Power3 {
     
     public static void main(String args[]) {
