@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class PrimeNumberInterval1 {
     public static void main(String args[]) {
         int min, max;
