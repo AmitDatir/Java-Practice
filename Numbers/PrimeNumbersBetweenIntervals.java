@@ -39,6 +39,7 @@ Enter a upper limit: 50
 
 //Using method to find prime number:
 import java.util.Scanner;
+
 public class PrimeNumberInterval2 {
     public static void main(String args[]) {
         int min, max;
