@@ -27,6 +27,7 @@ Sum of numbers is: 5050
 
 //Using while loop:
 import java.util.Scanner;
+
 public class SumNatural {
 
     public static void main(String args[]) {
