@@ -1,5 +1,6 @@
 //using for loop:
 import java.util.Scanner;
+
 public class SumNatural {
 
     public static void main(String args[]) {
