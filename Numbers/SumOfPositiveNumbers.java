@@ -1,5 +1,6 @@
 //using while loop:
 import java.util.Scanner;
+
 public class SumPositive {
 
     public static void main(String args[]) {
