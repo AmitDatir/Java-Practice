@@ -46,6 +46,7 @@ Sum of all positive numbers entered is = 55
 
 //using do-while loop:
 import java.util.Scanner;
+
 public class SumPositive {
 
     public static void main(String args[]) {
