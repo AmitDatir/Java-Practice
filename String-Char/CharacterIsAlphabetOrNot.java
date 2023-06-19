@@ -61,6 +61,7 @@ Enter only single character.
 
 //Using Ternary operator:
 import java.util.Scanner;
+
 public class AlphabetNoAlpha {
     private char ch;
 
