@@ -101,6 +101,7 @@ public class AlphabetNoAlpha {
 
 //Using isAlphabetic() method:
 import java.util.Scanner;
+
 public class AlphabetNoAlpha {
     private char ch;
 
