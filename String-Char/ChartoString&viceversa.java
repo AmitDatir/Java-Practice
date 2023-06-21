@@ -32,6 +32,7 @@ Value of String2: abcde
 
 //String to Char array:
 import java.util.Arrays;
+
 public class CS3 {
     public static void main(String args[]) {
         String str = "Java is awesome!";
