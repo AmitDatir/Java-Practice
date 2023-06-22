@@ -1,5 +1,6 @@
 //using exception handling:
 import java.util.Scanner;
+
 public class Numeric {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
