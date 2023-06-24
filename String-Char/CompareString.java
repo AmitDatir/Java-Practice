@@ -31,6 +31,3 @@ public class CompareString2 {
 
 
 //Output:  Equal Strings
-
-
-
