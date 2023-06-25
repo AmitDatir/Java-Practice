@@ -1,5 +1,6 @@
 //1st letter capital:
 import java.util.Scanner;
+
 public class Caps1 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
