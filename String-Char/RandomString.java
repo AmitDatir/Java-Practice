@@ -31,6 +31,7 @@ Output:
 
 //Generate random AlphaNumeric String:
 import java.util.Random;
+
 public class RandomAlphaNum {
     public static void main(String args[]) {
         String uAlphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
