@@ -1,8 +1,6 @@
 import java.util.Scanner;
 public class vowelConsonant {
     private char ch;
-
-
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter any character: ");
