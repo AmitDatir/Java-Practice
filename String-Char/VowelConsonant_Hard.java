@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class vowelConsonant {
     private char ch;
     public static void main(String args[]) {
