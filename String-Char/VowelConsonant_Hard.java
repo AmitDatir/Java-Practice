@@ -19,7 +19,6 @@ public class vowelConsonant {
         }
     }
 
-
     public char getCharacter() {
         return ch;
     }
