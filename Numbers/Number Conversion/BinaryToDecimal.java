@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class BinarytoDecimal1 {
     public static void main(String args[]) {
         long binary;
-        int decimal; 
-        
+        int decimal;  
         Scanner input = new Scanner(System.in);
         System.out.print("Enter binary number to convert into decimal: ");
         binary = input.nextLong();
@@ -16,8 +15,7 @@ public class BinarytoDecimal1 {
     
     public static int binaryToDecimal(long num){
         int decimal = 0, i=0;
-        long remainder;
-        
+        long remainder;    
         while(num!=0){
             remainder = num % 10;
             num /= 10;
