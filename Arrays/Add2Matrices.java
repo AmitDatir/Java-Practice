@@ -12,7 +12,6 @@ public class MatrixAdd {
         
         int mat1[][] = new int[x][y];
         int mat2[][] = new int[x][y];
-        
         System.out.println("Enter elements from 1st Matrix:");
         for(int i=0; i<x; i++){
             for (int j=0; j<y; j++){
