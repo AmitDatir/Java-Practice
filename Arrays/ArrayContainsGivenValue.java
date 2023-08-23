@@ -10,7 +10,6 @@ public class Arr1 {
                 result = true;
             }
         }
-        
         if(result){
             System.out.println(num + " is present in the array.");
         } else {
