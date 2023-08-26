@@ -17,8 +17,7 @@ public class ArraySortNew1 {
               if(arraySort[j]>arraySort[k]){
                   temp=arraySort[j];
                   arraySort[j]=arraySort[k];
-                  arraySort[k]=temp;
-                  
+                  arraySort[k]=temp;   
               }
           }
           System.out.println( arraySort[j] );
