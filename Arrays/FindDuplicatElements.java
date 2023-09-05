@@ -8,6 +8,6 @@ public class duplicateArray {
           System.out.println("Duplicate found @ " + i + " & " + j + ": " + aRR1[i]);
       }
     }
-}
-}
+   }
+ }
 }
