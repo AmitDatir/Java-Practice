@@ -7,9 +7,6 @@ ways do you know to solve this problem?
 
 //Solution 1 - Intermediate Array:
 
-
-
-
 import java.util.Scanner;
 
 public class Rotate1 {
