@@ -4,7 +4,6 @@ public class ArmstrongNumber {
     public static void main(String args[]) {
         int num, original, remainder, result=0,n=0;
         
-        
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number to check if it is an Armstrong number or not: ");
         num = input.nextInt();
