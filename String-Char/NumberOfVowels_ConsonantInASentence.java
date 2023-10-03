@@ -4,7 +4,6 @@ public class VowelConsonantCount{
     public static void main(String args[]){
         int vowel=0, consonant=0, numbers=0, spaces=0, others=0;
         Scanner input = new Scanner(System.in);
-        
         System.out.print("Enter a string to check: ");
         String str = input.nextLine();
         str = str.toLowerCase();
