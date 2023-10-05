@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class PalindromeString1 {
     public static void main(String args[]) {
-        String str, reverseStr = "";
-        
+        String str, reverseStr = "";        
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a string to check for palindrome: ");
         str = input.next();
