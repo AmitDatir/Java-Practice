@@ -3,6 +3,8 @@ Given two strings s and t, determine if they are isomorphic. Two strings are iso
 For example,"egg" and "add" are isomorphic, "foo" and "bar" are not.
 */
 
+
+
 import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
