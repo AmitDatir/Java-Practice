@@ -16,7 +16,6 @@ public class frequecyChar{
                 frequency++;
             }
         }
-        
         System.out.println("Frequency of " + ch + " = " + frequency);
     }
 }
