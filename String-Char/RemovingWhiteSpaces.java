@@ -13,6 +13,8 @@ public class WhiteSpace {
 }
 
 
+
+
 /*
 Output:
 Enter any string value: j a v a i s a w e s o m e
