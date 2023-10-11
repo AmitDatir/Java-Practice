@@ -22,6 +22,8 @@ public class FizzBuzzSimple {
 }
 
 
+
+
 /*
 Output:
 Enter any integer: 30
