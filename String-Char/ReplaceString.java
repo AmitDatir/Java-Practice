@@ -13,6 +13,7 @@ public class ReplaceAll {
 
 
 
+
 /*
 Output:
 Enter the string to modify: Java is awesome, so is Amit!!!!
