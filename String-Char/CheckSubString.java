@@ -28,6 +28,8 @@ public class CheckSubString1 {
 }
 
 
+
+
 /*
 Output:
 Enter Main String: 
@@ -38,6 +40,7 @@ awesome
 java is not present in the main string.
 awesome is present in the main string.
 */
+
 
 
 
