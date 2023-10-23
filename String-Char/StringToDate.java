@@ -12,10 +12,12 @@ public class TimeString1 {
 }
 
 
+
 /*
 Output:
 2022-09-15
 */
+
 
 
 
@@ -33,6 +35,8 @@ public class TimeString2 {
         System.out.println(date);
     }
 }
+
+
 
 
 /*
