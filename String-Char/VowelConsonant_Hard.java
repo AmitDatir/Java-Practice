@@ -40,6 +40,8 @@ public class vowelConsonant {
 }
 
 
+
+
 /* Output:
 1.
 Enter any character: abhi
