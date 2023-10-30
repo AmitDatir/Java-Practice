@@ -49,6 +49,8 @@ public class Rotate1 {
 }
 
 
+
+
 /*
 Output:
 Enter number of elements inside array: 
