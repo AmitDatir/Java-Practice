@@ -15,6 +15,8 @@ public class EvenOdd1 {
 }
 
 
+
+
 /*
 Output:
 Enter any number to check: 561
@@ -36,6 +38,8 @@ public class EvenOdd2 {
         System.out.println("Number " + number + " is" + result);
     }
 }
+
+
 
 
 /*Output:
