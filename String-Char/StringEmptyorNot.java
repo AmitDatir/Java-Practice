@@ -22,12 +22,16 @@ public class NullEmpty1 {
 }
 
 
+
+
 /*
 Output:
 str1 is Null.
 str2 is empty.
 str3 is neither null nor empty.
 */
+
+
 
 
 //String with white spaces empty or not:
@@ -52,6 +56,8 @@ public class NullEmpty2 {
         }
     }
 }
+
+
 
 
 /*
