@@ -18,6 +18,7 @@ public class MultiplicationTable {
 }
 
 
+
 /*
 Output:
 Enter a number to find multiplication table: 17
@@ -32,6 +33,8 @@ Enter a number to find multiplication table: 17
 17 * 9 = 153 
 17 * 10 = 170
 */
+
+
 
 
 //Using for loop:
