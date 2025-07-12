@@ -50,3 +50,37 @@ Enter elements inside an array:
 6
 9 is unique number inside given array.
 */
+
+
+
+//Optimized code:
+import java.util.*;
+
+public class CollectionDemo {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter number of elements in the array: ");
+        int len = input.nextInt();
+        
+        int[] arr = new int[len];
+        System.out.println("Enter elements in the array:");
+        for(int i = 0; i < len; i++) {
+            arr[i] = input.nextInt();
+        }
+
+        // Count frequency of each number
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        for (int num : arr) {
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+        }
+
+        // Print unique numbers
+        System.out.print("Unique numbers in the array: ");
+        for (int num : freqMap.keySet()) {
+            if (freqMap.get(num) == 1) {
+                System.out.println(num + " is a unique number.");
+            }
+        }
+    }
+}
