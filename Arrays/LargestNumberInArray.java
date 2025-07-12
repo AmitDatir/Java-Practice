@@ -93,3 +93,57 @@ Enter elements inside an array:
 3
 Maximum number from column of minimum number = 10
 */
+
+
+
+
+//Robust & Scalable Version:
+public class InterviewMinNumber {
+
+    public static void main(String[] args) {
+
+        int[][] abc = {
+            {2, 4, 5},
+            {3, 2, 10},
+            {1, 2, 0}
+        };
+
+        // Edge case: check if matrix is empty or improperly formed
+        if (abc == null || abc.length == 0 || abc[0].length == 0) {
+            System.out.println("Invalid matrix input.");
+            return;
+        }
+
+        int rows = abc.length;
+        int cols = abc[0].length;
+
+        int min = abc[0][0];
+        int minColumn = 0;
+
+        // Find the column of the minimum element in the matrix
+        for (int i = 0; i < rows; i++) {
+            if (abc[i].length != cols) {
+                System.out.println("Jagged arrays are not supported.");
+                return;
+            }
+            for (int j = 0; j < cols; j++) {
+                if (abc[i][j] < min) {
+                    min = abc[i][j];
+                    minColumn = j;
+                }
+            }
+        }
+
+        // Find the maximum value in the column that contains the minimum value
+        int maxInMinColumn = abc[0][minColumn];
+        for (int i = 1; i < rows; i++) {
+            if (abc[i][minColumn] > maxInMinColumn) {
+                maxInMinColumn = abc[i][minColumn];
+            }
+        }
+
+        System.out.println("Maximum in column containing minimum element: " + maxInMinColumn);
+    }
+}
+
+
