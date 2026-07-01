@@ -11,6 +11,8 @@ Note:
 
 
 
+
+//Solution 3: Standard Bit Shifting (Alternative)
 public class Solution {
     // you need to treat n as an unsigned value
     public static int hammingWeight(int n) {
@@ -20,5 +22,36 @@ public class Solution {
     		    n = n>>>1;
     	    }
     	return ones;
+    }
+}
+
+
+
+/*
+191. Number of 1 Bits: https://leetcode.com/problems/number-of-1-bits/
+Given a positive integer n, write a function that returns the number of set bits in its binary representation (also known as the Hamming weight).
+*/
+
+
+
+
+//Solution 1: The Built-in Method (Optimal & Clean)
+class Solution {
+    public int hammingWeight(int n) {
+        return Integer.bitCount(n);
+    }
+}
+
+
+
+//Solution 2: Brian Kernighan’s Algorithm (Best for Interviews)
+class Solution {
+    public int hammingWeight(int n) {
+        int count = 0;
+        while (n != 0) {
+            n = n & (n - 1); // Clears the rightmost set bit
+            count++;
+        }
+        return count;
     }
 }
